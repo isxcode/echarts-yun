@@ -353,7 +353,7 @@ function clickOther() {
 }
 
 function clickGithubProject() {
-  window.open("https://github.com/orgs/isxcode/projects/21");
+  window.open("https://github.com/orgs/isxcode/projects/22");
 }
 
 function clickGitee() {
