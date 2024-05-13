@@ -1,0 +1,23 @@
+dependencies {
+
+  api(project(':echarts-yun-backend:echarts-yun-modules'))
+  api(project(':echarts-yun-vip:echarts-yun-backend'))
+
+  // thymeleaf
+  implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+  // druid
+  implementation "com.alibaba:druid-spring-boot-starter:${DRUID_VERSION}"
+
+  // flyway
+  implementation "org.flywaydb:flyway-core:${FLYWAY_VERSION}"
+  implementation "org.flywaydb:flyway-mysql:${FLYWAY_VERSION}"
+}
+
+bootJar {
+  archiveFileName = 'zhishiyun.jar'
+}
+
+bootRun {
+    workingDir(rootDir.getAbsolutePath())
+}

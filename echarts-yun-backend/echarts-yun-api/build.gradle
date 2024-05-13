@@ -1,0 +1,4 @@
+dependencies {
+
+  api(project(":echarts-yun-backend:echarts-yun-api-base"))
+}
