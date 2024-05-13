@@ -133,7 +133,7 @@ if ! docker image inspect flink:1.18.1-scala_2.12 &>/dev/null; then
   exit 0
 fi
 
-# 检测命名空间是否有flink-yun
+# 检测命名空间是否有echarts-yun
 if ! kubectl get namespace zhishiyun-space &>/dev/null; then
   json_output="{ \
             \"status\": \"INSTALL_ERROR\", \
