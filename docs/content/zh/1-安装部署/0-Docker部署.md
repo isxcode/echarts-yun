@@ -2,7 +2,7 @@
 title: "Docker部署"
 ---
 
-?> 至轻云平台镜像由Docker Hub官方镜像仓库管理
+?> 至视云平台镜像由Docker Hub官方镜像仓库管理
 
 <br/>
 
@@ -40,7 +40,7 @@ docker run -p 8080:8080 -e ADMIN_PASSWORD=123456 -d isxcode/zhiqingyun
 ### 如何挂载资源目录？
 
 ```bash
-docker run -v /zhiqingyun/resources:/var/lib/spark-yun -p 8080:8080 -d isxcode/zhiqingyun
+docker run -v /zhiqingyun/resources:/var/lib/echarts-yun -p 8080:8080 -d isxcode/zhiqingyun
 ```
 
 ### 如何自定义配置？
@@ -60,13 +60,13 @@ spring:
 
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:/var/lib/spark-yun/h2/data
+    url: jdbc:h2:file:/var/lib/echarts-yun/h2/data
     username: root
     password: root123
 
   flyway:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:/var/lib/spark-yun/h2/data
+    url: jdbc:h2:file:/var/lib/echarts-yun/h2/data
     user: root
     password: root123
     locations: classpath:db/migration/h2  #  可配置classpath:db/migration/h2或者classpath:db/migration/mysql
@@ -74,11 +74,11 @@ spring:
   quartz:
     properties:
       org.quartz.dataSource.quartzDataSource.driver: org.h2.Driver
-      org.quartz.dataSource.quartzDataSource.URL: jdbc:h2:file:/var/lib/spark-yun/h2/data
+      org.quartz.dataSource.quartzDataSource.URL: jdbc:h2:file:/var/lib/echarts-yun/h2/data
       org.quartz.dataSource.quartzDataSource.user: root
       org.quartz.dataSource.quartzDataSource.password: root123
 ```
 
 ```bash
-docker run -v /zhiqingyun/config:/etc/spark-yun/conf -e ACTIVE_ENV=demo -p 8080:8080 -d isxcode/zhiqingyun
+docker run -v /zhiqingyun/config:/etc/echarts-yun/conf -e ACTIVE_ENV=demo -p 8080:8080 -d isxcode/zhiqingyun
 ```

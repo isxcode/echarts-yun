@@ -4,7 +4,7 @@
  * @LastEditTime: 2023-06-18 15:48:24
  * @LastEditors: fanciNate
  * @Description: In User Settings Edit
- * @FilePath: /spark-yun/spark-yun-website/src/views/workflow/work-item/running-log.vue
+ * @FilePath: /echarts-yun/echarts-yun-website/src/views/workflow/work-item/running-log.vue
 -->
 <template>
   <div
