@@ -4,7 +4,7 @@
  * @LastEditTime: 2023-06-18 14:59:12
  * @LastEditors: fanciNate
  * @Description: In User Settings Edit
- * @FilePath: /spark-yun/spark-yun-website/src/views/workflow/workflow-detail/index.vue
+ * @FilePath: /echarts-yun/echarts-yun-website/src/views/workflow/workflow-detail/index.vue
 -->
 <template>
   <Breadcrumb :bread-crumb-list="breadCrumbList" />
