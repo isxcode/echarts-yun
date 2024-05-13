@@ -98,7 +98,7 @@ spotless {
         target '*/**/*.java'
         targetExclude('*/build/**/*.java')
         targetExclude('echarts-yun-dist/**/*.java')
-        eclipse().configFile('/Users/ispong/isxcode/flink-yun/.spotless/eclipse-java-google-style.xml')
+        eclipse().configFile('/Users/ispong/isxcode/echarts-yun/.spotless/eclipse-java-google-style.xml')
         removeUnusedImports()
     }
 }
