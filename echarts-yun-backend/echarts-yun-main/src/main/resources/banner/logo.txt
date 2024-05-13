@@ -17,7 +17,7 @@ E::::::::::::::::::::E c:::::::::::::::::ch:::::h     h:::::ha:::::aaaa::::::a r
 E::::::::::::::::::::E  cc:::::::::::::::ch:::::h     h:::::h a::::::::::aa:::ar:::::r                    tt:::::::::::tt s:::::::::::ss           Y:::::::::::Y      uu::::::::uu:::un::::n    n::::n
 EEEEEEEEEEEEEEEEEEEEEE    cccccccccccccccchhhhhhh     hhhhhhh  aaaaaaaaaa  aaaarrrrrrr                      ttttttttttt    sssssssssss             YYYYYYYYYYYYY        uuuuuuuu  uuuunnnnnn    nnnnnn
 
-${AnsiColor.RED}
+${AnsiColor.BLUE}
 项目: ${application.title}
 官网: ${application.website}
 描述: ${application.describe}

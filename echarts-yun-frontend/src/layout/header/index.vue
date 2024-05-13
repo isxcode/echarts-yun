@@ -4,7 +4,7 @@
  * @LastEditTime: 2023-06-22 21:30:03
  * @LastEditors: fanciNate
  * @Description: In User Settings Edit
- * @FilePath: /spark-yun/spark-yun-website/src/layout/header/index.vue
+ * @FilePath: /echarts-yun/echarts-yun-website/src/layout/header/index.vue
 -->
 <template>
   <div class="zqy-header">

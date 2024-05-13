@@ -357,7 +357,7 @@ function clickGithubProject() {
 }
 
 function clickGitee() {
-  window.open("https://gitee.com/isxcode/spark-yun");
+  window.open("https://gitee.com/isxcode/echarts-yun");
 }
 
 function clickZhiqingyun() {
@@ -381,7 +381,7 @@ function clickZhishiyun() {
 }
 
 function clickGithub() {
-  window.open("https://github.com/isxcode/spark-yun/discussions");
+  window.open("https://github.com/isxcode/echarts-yun/discussions");
 }
 
 function clickSlack() {

@@ -101,7 +101,7 @@
         <div class="module-business">
             <div class="content">
                 <div class="line-1">数据创造价值，大数据创造大价值</div>
-                <div class="line-2">AI将至，至轻云与您携手实现企业级大数据平台落地</div>
+                <div class="line-2">AI将至，至视云与您携手实现企业级大数据平台落地</div>
                 <div class="business-img">
                     <img src="https://isxcode.oss-cn-shanghai.aliyuncs.com/zhishiyun/business-img/b-1.png" alt="">
                     <img class="bus-img" src="https://isxcode.oss-cn-shanghai.aliyuncs.com/zhishiyun/business-img/b-2.png" alt="">
@@ -166,8 +166,8 @@ definePageMeta({
 useSeoMeta({
     title: "至视云",
     ogTitle: "至视云",
-    description: "打造企业级流式大数据平台",
-    ogDescription: "打造企业级流式大数据平台",
+    description: "打造企业级数据可视化平台",
+    ogDescription: "打造企业级数据可视化平台",
 });
 
 const isMobile = useMediaQuery('(max-width: 767px)')

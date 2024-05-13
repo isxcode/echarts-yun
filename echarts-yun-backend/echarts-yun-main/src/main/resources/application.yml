@@ -1,7 +1,7 @@
 application:
   title: 至视云
   website: https://zhishiyun.isxcode.com
-  describe: 打造企业级流式大数据平台
+  describe: 打造企业级数据可视化平台
 
 server:
   tomcat:
@@ -65,7 +65,7 @@ spring:
         web-allow-others: true
 
   quartz:
-    scheduler-name: spark-yun-quartz-scheduler
+    scheduler-name: echarts-yun-quartz-scheduler
     job-store-type: jdbc
     jdbc:
       initialize-schema: never
